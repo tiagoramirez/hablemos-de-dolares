@@ -1,13 +1,42 @@
+html,
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #344e5c;
+    margin: 0;
+    text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header,
+footer {
+    background-color: #4ab19d;
+    padding: 1rem;
+    width: 100%;
+    height: 6rem;
+}
+
+header h1,
+header h2 {
+    margin: 0;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+.dolar-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dolar-card {
+    border: 1px solid grey;
+    border-radius: 1rem;
+    width: 200px;
+    padding: 0.5rem;
+    margin: 10px auto;
+}
+
+.dolar-card h4,
+.dolar-card p {
+    margin: 0.5rem;
 }

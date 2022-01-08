@@ -8,7 +8,6 @@ export const HablemosDeDolares = () => {
         <div>
             <Header />
             <DolarGrid/>
-            <hr />
             <Footer mail="tirama2001@gmail.com"/>
         </div>
     );

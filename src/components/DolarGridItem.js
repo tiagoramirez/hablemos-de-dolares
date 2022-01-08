@@ -4,10 +4,10 @@ export const DolarGridItem = ({casa}) => {
     const { nombre, compra, venta } = casa;
 
     return (
-        <div>
+        <div className="dolar-card">
             <h4>{nombre}</h4>
-            <h5>Compra: {compra}</h5>
-            <h6>Venta: {venta}</h6>
+            <p>Compra: {compra}</p>
+            <p>Venta: {venta}</p>
         </div>
     );
 };

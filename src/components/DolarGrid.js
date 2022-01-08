@@ -16,15 +16,16 @@ export const DolarGrid = () => {
     ];
 
     return (
-        <ul>
-            <h3>Dolares:</h3>
+        <div className="dolar-grid">
             {loading ? (
                 <p>Cargando...</p>
             ) : (
-                casas.map((casa) => {
-                    return <DolarGridItem key={casa.agencia} casa={casa} />;
-                })
+                <>
+                    {casas.map((casa) => {
+                        return <DolarGridItem key={casa.agencia} casa={casa} />;
+                    })}
+                </>
             )}
-        </ul>
+        </div>
     );
 };
