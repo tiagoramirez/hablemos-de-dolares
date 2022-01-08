@@ -1,6 +1,7 @@
 import React from "react";
 import { useFetch } from "../hooks/useFetch";
 import { DolarGridItem } from "./DolarGridItem";
+import "../styles/components/DolarGrid.css";
 
 export const DolarGrid = () => {
     const { data, loading } = useFetch(

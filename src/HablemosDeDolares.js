@@ -5,10 +5,10 @@ import { Header } from "./components/Header";
 
 export const HablemosDeDolares = () => {
     return (
-        <div>
+        <>
             <Header />
             <DolarGrid/>
             <Footer mail="tirama2001@gmail.com"/>
-        </div>
+        </>
     );
 };

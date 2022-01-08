@@ -1,42 +1,12 @@
-html,
-body {
+html {
+    min-height: 100vh;
+    margin: 0;
+    padding:0;
     background-color: #344e5c;
+}
+
+body{
     margin: 0;
-    text-align: center;
-}
-
-header,
-footer {
-    background-color: #4ab19d;
-    padding: 1rem;
-    width: 100%;
-    height: 6rem;
-}
-
-header h1,
-header h2 {
-    margin: 0;
-}
-
-header h1 {
-    margin-bottom: 1rem;
-}
-
-.dolar-grid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.dolar-card {
-    border: 1px solid grey;
-    border-radius: 1rem;
-    width: 200px;
-    padding: 0.5rem;
-    margin: 10px auto;
-}
-
-.dolar-card h4,
-.dolar-card p {
-    margin: 0.5rem;
+    min-height: 100vh;
+    background-color: #344e5c;
 }

@@ -1,0 +1,23 @@
+footer {
+    background-color: #344e5c;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+#contacto {
+    color: wheat;
+    font-weight: bold;
+    background-color: #4ab19d;
+    border: 1px solid #344e5c;
+    font-size: 1.2rem;
+}
+
+footer p {
+    float: left;
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
